@@ -22,7 +22,7 @@
   </head>
   <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
+      <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -36,7 +36,7 @@
     </nav>
 
     <div class="jumbotron">
-      <div class="container">
+      <div class="container-fluid">
         <h1>Cursos sobre tecnologías web</h1>
         <p>Documentación (programas, ejercicios, código útil para las prácticas) para algunos cursos sobre tecnologías web impartidos en la <a href="http://www.etsit.urjc.es">Escuela de Ingeniería de Telecomunicación</a> de la <a href="http://www.urjc.es">Universidad Rey Juan Carlos</a></p>
         <p><a class="btn btn-primary btn-lg" href="#" role="button">Más información &raquo;</a></p>
@@ -45,29 +45,29 @@
     <div class="container">
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 col-xs-6">
           <h2>Programas</h2>
           <p>Programas de los cursos. Incluyen planificación temporal de las clases, enunciados de ejercicios y prácticas, exámenes de cursos pasados, etc. </p>
           <p><a class="btn btn-default" href="#programas" role="button">Más información &raquo;</a></p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-xs-6">
           <h2>Código</h2>
           <p>Código usado para resolver los ejercicios o prácticas. </p>
           <p><a class="btn btn-default" href="#codigo" role="button">Más información &raquo;</a></p>
        </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-xs-6">
           <h2>Transparencias</h2>
           <p>Transparencias usadas en las sesiones de los cursos.</p>
           <p><a class="btn btn-default" href="#transpas" role="button">Más información &raquo;</a></p>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4 col-xs-6">
           <h2>Recursos</h2>
           <p>Enlaces a recursos externos (libros, programas, etc.) que pueden ser de interés.</p>
           <p><a class="btn btn-default" href="#recursos" role="button">Más información &raquo;</a></p>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4 col-xs-6">
           <h2>Alumnos</h2>
           <p>Materiales producidos por alumnos de estos cursos.</p>
           <p><a class="btn btn-default" href="#alumnos" role="button">Más información &raquo;</a></p>
@@ -75,90 +75,105 @@
       </div>
 
       <div class="row">
-	<a name="programas"></a>
-	<h2>Programas</h2>
-	<p>Aplicaciones en el servidor usando HTTP:</p>
-	<ul>
-	  <li><a href="programas/IST-SARO.pdf">Servicios y Aplicaciones en Redes de Ordenadores</a>, Grado en Sistemas de Telecomunicación (IST-SARO).</li>
-	  <li><a href="programas/ITT-SAT.pdf">Servicios y Aplicaciones Telemáticas</a>, Grado en Ingeniería en Tecnologías de Telecomunicación (ITT-SAT).</li>
-	</ul>
-	<p>Aplicaciones HTML5 y similares:</p>
-	<ul>
-	  <li><a href="programas/ITT-DAT.pdf">Desarrollo de Aplicaciones Telemáticas</a>, Grado en Ingeniería en Tecnologías de Telecomunicación (ITT-DAT).</li>
-	  <li><a href="programas/IT-AT.pdf">Aplicaciones Telemáticas</a>, Grado en Ingeniería Telemática (IT-AT).</li>
-	</ul>
+      	<div class='col-xs-12 col-md-6'>
+			<a name="programas"></a>
+			<h2>Programas</h2>
+			<p>Aplicaciones en el servidor usando HTTP:</p>
+			<ul>
+			  <li><a href="programas/IST-SARO.pdf">Servicios y Aplicaciones en Redes de Ordenadores</a>, Grado en Sistemas de Telecomunicación (IST-SARO).</li>
+			  <li><a href="programas/ITT-SAT.pdf">Servicios y Aplicaciones Telemáticas</a>, Grado en Ingeniería en Tecnologías de Telecomunicación (ITT-SAT).</li>
+			</ul>
+			<p>Aplicaciones HTML5 y similares:</p>
+			<ul>
+			  <li><a href="programas/ITT-DAT.pdf">Desarrollo de Aplicaciones Telemáticas</a>, Grado en Ingeniería en Tecnologías de Telecomunicación (ITT-DAT).</li>
+			  <li><a href="programas/IT-AT.pdf">Aplicaciones Telemáticas</a>, Grado en Ingeniería Telemática (IT-AT).</li>
+			</ul>
+		</div>
+		<div class='col-xs-12 col-md-6'>
+			<img class="img-responsive hidden-xs" src="http://2.bp.blogspot.com/-zi3SQnxpz20/UjwhBJPuR2I/AAAAAAAAAhI/jVCGptCIxhY/s1600/iconos-programas.png">
+		</div>
       </div>
 
       <div class="row">
-	<a name="codigo"></a>
-	<h2>Código</h2>
-	<p>Todo el código está en el repositorio <a href="https://github.com/CursosWeb/Code">CursosWeb/Code</a>.</p>
+      	<div class='col-xs-12 col-md-6'>
+      		<img class="img-responsive hidden-xs" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/QRc%C3%B3digo_portada_wikipedia_espa%C3%B1ol.png/220px-QRc%C3%B3digo_portada_wikipedia_espa%C3%B1ol.png">
+      	</div>
+      	<div class='col-xs-12 col-md-6'>
+			<a name="codigo"></a>
+			<h2>Código</h2>
+			<p>Todo el código está en el repositorio <a href="https://github.com/CursosWeb/Code">CursosWeb/Code</a>.</p>
 
-	<p>Código utlizado en IST-SARO e ITT-SAT:</p>
-	<ul>
-	  <li><a href="https://github.com/CursosWeb/Code/tree/master/Python-Web">Servidores web simples en Python</a></li>
-	  <li><a href="https://github.com/CursosWeb/Code/tree/master/REST">Servidores web que interoperan (simples, en Python)</a></li>
-	  <li><a href="https://github.com/CursosWeb/Code/tree/master/XML">XML y Python</a></li>
-	  <li><a href="https://github.com/CursosWeb/Code/tree/master/CSS">CSS</a></li>
-	  <li><a href="https://github.com/CursosWeb/Code/tree/master/Ajax">Ajax</a> (<a href="http://cursosweb.github.io/Code/Ajax/spa-sentences-generator/">demos online</a>)</li>
-	</ul>
+			<p>Código utlizado en IST-SARO e ITT-SAT:</p>
+			<ul>
+			  <li><a href="https://github.com/CursosWeb/Code/tree/master/Python-Web">Servidores web simples en Python</a></li>
+			  <li><a href="https://github.com/CursosWeb/Code/tree/master/REST">Servidores web que interoperan (simples, en Python)</a></li>
+			  <li><a href="https://github.com/CursosWeb/Code/tree/master/XML">XML y Python</a></li>
+			  <li><a href="https://github.com/CursosWeb/Code/tree/master/CSS">CSS</a></li>
+			  <li><a href="https://github.com/CursosWeb/Code/tree/master/Ajax">Ajax</a> (<a href="http://cursosweb.github.io/Code/Ajax/spa-sentences-generator/">demos online</a>)</li>
+			</ul>
 
-	<p>Código utlizado en ITT-DAT e IT-AT:</p>
-	<ul>
-	  <li><a href="https://github.com/CursosWeb/Code/tree/master/HTML">Introducción a HTML</a></li>
-	  <li><a href="https://github.com/CursosWeb/Code/tree/master/CSS">Introducción a CSS</a></li>
-	  <li><a href="https://github.com/CursosWeb/Code/tree/master/JavaScript">Introducción a JavaScript</a></li>
-	  <li><a href="https://github.com/CursosWeb/Code/tree/master/jQuery">Introducción a jQuery</a> (<a href="http://cursosweb.github.io/Code/jQuery">demos online</a>)</li>
-	  <li><a href="https://github.com/CursosWeb/Code/tree/master/HTML5">Introducción a HTML5</a></li>
-	  <li><a href="https://github.com/CursosWeb/Code/tree/master/JS-Libs">Algunas bibliotecas JavaScript</a></li>
-	  <li><a href="https://github.com/CursosWeb/Code/tree/master/JS-APIs">APIs de servicio usadas desde JavaScript</a> (<a href="http://cursosweb.github.io/Code/JS-APIs/leaflet">demos online relacionadas con mapas</a>, <a href="http://cursosweb.github.io/Code/JS-APIs/github">demos online relacionadas con GitHub</a>)</li>
-	  <li><a href="https://github.com/CursosWeb/Code/tree/master/OAuth">OAuth</a> (<a href="http://cursosweb.github.io/Code/OAuth">demos online</a>)</li>
-	</ul>
-	<p>Prácticas incrementales, entre los <a href="https://github.com/CursosWeb">repositorios de CursosWeb en GitHub</a> (ver detalles en el programa de cada asignatura):
-	  <ul>
-	    <li>ITT-DAT e IT-AT: Los repositorios que comienzan por X-Nav.</li>
-	    <li>IST-SARO e ITT-SAT: Los repositorios que comienzan por X-Serv.</li>
-	  </ul>
+			<p>Código utlizado en ITT-DAT e IT-AT:</p>
+			<ul>
+			  <li><a href="https://github.com/CursosWeb/Code/tree/master/HTML">Introducción a HTML</a></li>
+			  <li><a href="https://github.com/CursosWeb/Code/tree/master/CSS">Introducción a CSS</a></li>
+			  <li><a href="https://github.com/CursosWeb/Code/tree/master/JavaScript">Introducción a JavaScript</a></li>
+			  <li><a href="https://github.com/CursosWeb/Code/tree/master/jQuery">Introducción a jQuery</a> (<a href="http://cursosweb.github.io/Code/jQuery">demos online</a>)</li>
+			  <li><a href="https://github.com/CursosWeb/Code/tree/master/HTML5">Introducción a HTML5</a></li>
+			  <li><a href="https://github.com/CursosWeb/Code/tree/master/JS-Libs">Algunas bibliotecas JavaScript</a></li>
+			  <li><a href="https://github.com/CursosWeb/Code/tree/master/JS-APIs">APIs de servicio usadas desde JavaScript</a> (<a href="http://cursosweb.github.io/Code/JS-APIs/leaflet">demos online relacionadas con mapas</a>, <a href="http://cursosweb.github.io/Code/JS-APIs/github">demos online relacionadas con GitHub</a>)</li>
+			  <li><a href="https://github.com/CursosWeb/Code/tree/master/OAuth">OAuth</a> (<a href="http://cursosweb.github.io/Code/OAuth">demos online</a>)</li>
+			</ul>
+			<p>Prácticas incrementales, entre los <a href="https://github.com/CursosWeb">repositorios de CursosWeb en GitHub</a> (ver detalles en el programa de cada asignatura):
+			  <ul>
+			    <li>ITT-DAT e IT-AT: Los repositorios que comienzan por X-Nav.</li>
+			    <li>IST-SARO e ITT-SAT: Los repositorios que comienzan por X-Serv.</li>
+			  </ul>
 
-	<p>Recuerda que para entregar tus prácticas tendrás que &ldquo;hacer un fork&rdquo; de los repositorios correspondientes, y registrar tu nombre de cuenta en Git Hub en la actividad abierta para ello en el sitio de tu asignatura en el campus virtual.</p>
-	<p>Atención: iremos poniendo más código relacionado con las prácticas durante los próximos días.</p>
+			<p>Recuerda que para entregar tus prácticas tendrás que &ldquo;hacer un fork&rdquo; de los repositorios correspondientes, y registrar tu nombre de cuenta en Git Hub en la actividad abierta para ello en el sitio de tu asignatura en el campus virtual.</p>
+			<p>Atención: iremos poniendo más código relacionado con las prácticas durante los próximos días.</p>
+      	</div>
       </div>
 
       <div class="row">
-	<a name="transpas"></a>
-	<h2>Transparencias</h2>
-	<p>Aplicaciones en el servidor usando HTTP:</p>
-	<ul>
-	  <li><a href="transpas/IST-SARO.pdf">Servicios y Aplicaciones en Redes de Ordenadores</a>, Grado en Sistemas de Telecomunicación (IST-SARO).</li>
-	  <li><a href="transpas/ITT-SAT.pdf">Servicios y Aplicaciones Telemáticas</a>, Grado en Ingeniería en Tecnologías de Telecomunicación (ITT-SAT).</li>
-	</ul>
-	<p>Aplicaciones HTML5 y similares:</p>
-	<ul>
-	  <li><a href="transpas/ITT-DAT.pdf">Desarrollo de Aplicaciones Telemáticas</a>, Grado en Ingeniería en Tecnologías de Telecomunicación (ITT-DAT).</li>
-	  <li><a href="transpas/IT-AT.pdf">Aplicaciones Telemáticas</a>, Grado en Ingeniería Telemática (IT-AT).</li>
-	</ul>
-	<p>Otros juegos de transparencias:</p>
-	<ul>
-	  <li><a href="transpas/frikiminutos-a.pdf">Frikiminutos (serie A)</a></li>
-	  <li><a href="transpas/frikiminutos-b.pdf">Frikiminutos (serie B)</a></li>
-	  <li><a href="transpas/2014-2015/frikiminutos-2015-a.pdf">Frikiminutos (curso 2014-2015)</a></li>
-	  <li><a href="transpas/tecnoweb-intro.pdf">Introducción práctica a las tecnologías web</a></li>
-	</ul>
-	<p>Atención: iremos actualizando y completando las transparencias según avanzan las asignaturas.</p>
+			<a name="transpas"></a>
+			<h2>Transparencias</h2>
+			<p>Aplicaciones en el servidor usando HTTP:</p>
+			<ul>
+			  <li><a href="transpas/IST-SARO.pdf">Servicios y Aplicaciones en Redes de Ordenadores</a>, Grado en Sistemas de Telecomunicación (IST-SARO).</li>
+			  <li><a href="transpas/ITT-SAT.pdf">Servicios y Aplicaciones Telemáticas</a>, Grado en Ingeniería en Tecnologías de Telecomunicación (ITT-SAT).</li>
+			</ul>
+			<p>Aplicaciones HTML5 y similares:</p>
+			<ul>
+			  <li><a href="transpas/ITT-DAT.pdf">Desarrollo de Aplicaciones Telemáticas</a>, Grado en Ingeniería en Tecnologías de Telecomunicación (ITT-DAT).</li>
+			  <li><a href="transpas/IT-AT.pdf">Aplicaciones Telemáticas</a>, Grado en Ingeniería Telemática (IT-AT).</li>
+			</ul>
+			<p>Otros juegos de transparencias:</p>
+			<ul>
+			  <li><a href="transpas/frikiminutos-a.pdf">Frikiminutos (serie A)</a></li>
+			  <li><a href="transpas/frikiminutos-b.pdf">Frikiminutos (serie B)</a></li>
+			  <li><a href="transpas/2014-2015/frikiminutos-2015-a.pdf">Frikiminutos (curso 2014-2015)</a></li>
+			  <li><a href="transpas/tecnoweb-intro.pdf">Introducción práctica a las tecnologías web</a></li>
+			</ul>
+			<p>Atención: iremos actualizando y completando las transparencias según avanzan las asignaturas.</p>
+	</div>
       </div>
-
       <div class="row">
-	<a name="recursos"></a>
-	<h2>Recursos</h2>
-	<p>Libros:</p>
-	<ul>
-	  <li><a href="http://eloquentjavascript.net/">Eloquent JavaScript</a>. Puede ayudarte mucho si ya sabes programar y estás empezando a trabajar con JavaScript.</li>
-	  <li><a href="http://designingforperformance.com/">Designing for Performance</a>. Optimización de aplicaciones web, teniendo en cuenta tamibén aspectos de diseño.
-	  <li><a href="http://docs.python-guide.org/">The Hitchhiker’s Guide to Python</a>. Manual de buenas prácticas sobre la instalación, configuración y uso de Python.</li>
-	  <li><a href="http://www.diveintopython.net/">Dive into Python</a>. Tal y como la propia introducción del libro dice: &lquo;un libro sobre Python para programadores&rquo;.</li>
-	  <li><a href="http://tutorial.djangogirls.org/">Django Girls Tutorial</a>. Tutorial sobre Django, para chicas y chicos.</li>
-	  <li><a href="http://git-scm.com/book/">Pro Git</a>. Libro sobre git, que cubre desde el uso básico hasta varios detalles avanzados, incluyendo el uso con GitHub.</li>
-	</ul>
+	      <div class='col-xs-12 col-md-6'>
+	      	<img class="img-responsive hidden-xs" src="http://www.imagenesde.info/wp-content/uploads/2014/11/imagenesdepaisajes3.jpg">
+	      </div>
+	      <div class='col-xs-12 col-md-6'>
+			<a name="recursos"></a>
+			<h2>Recursos</h2>
+			<p>Libros:</p>
+			<ul>
+			  <li><a href="http://eloquentjavascript.net/">Eloquent JavaScript</a>. Puede ayudarte mucho si ya sabes programar y estás empezando a trabajar con JavaScript.</li>
+			  <li><a href="http://designingforperformance.com/">Designing for Performance</a>. Optimización de aplicaciones web, teniendo en cuenta tamibén aspectos de diseño.</li>
+			  <li><a href="http://docs.python-guide.org/">The Hitchhiker’s Guide to Python</a>. Manual de buenas prácticas sobre la instalación, configuración y uso de Python.</li>
+			  <li><a href="http://www.diveintopython.net/">Dive into Python</a>. Tal y como la propia introducción del libro dice: &lquo;un libro sobre Python para programadores&rquo;.</li>
+			  <li><a href="http://tutorial.djangogirls.org/">Django Girls Tutorial</a>. Tutorial sobre Django, para chicas y chicos.</li>
+			  <li><a href="http://git-scm.com/book/">Pro Git</a>. Libro sobre git, que cubre desde el uso básico hasta varios detalles avanzados, incluyendo el uso con GitHub.</li>
+			</ul>
+	      </div>
       </div>
 
       <div class="row">
